@@ -15,13 +15,13 @@ class Calculator {
   }
   subtraction() {
     return this.a - this.b;
-  } 
+  }
   multiplication() {
     return this.a * this.b;
-  } 
+  }
   division() {
     return this.a / this.b;
-  }  
+  }
 }
 const suma = new Calculator(5, 6);
 console.log(suma.sum());
