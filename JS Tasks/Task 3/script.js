@@ -24,7 +24,7 @@ function lirePersonne(personnes) {
   root.textContent = "";
   console.log(personnes);
   for (let i = 0; i < personnes.length; i++) {
-    let githubUser = document.createElement("p");
+    let githubUser = document.createElement("div");
     githubUser.className = "githubUsers";
     root.appendChild(githubUser);
     githubUser.innerText = personnes[i].login +"       "+ personnes[i].avatar_url;
