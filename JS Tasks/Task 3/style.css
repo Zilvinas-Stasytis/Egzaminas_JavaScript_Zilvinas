@@ -53,9 +53,36 @@
 }
 
 .output-cointainer #output {
-  width: 80%;
+  width: 95%;
   margin-top: 25px;
   padding: 30px;
   border-radius: 5px;
   background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
+  .card {
+    box-shadow: 5px 5px 10px;
+    width: 350px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin: 0px;
+    padding: 0px;
+  }
+  .img img {
+    width: 30%;
+    margin-left: 120px;
+  }
+  .githubUser {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .card-footer {
+    padding: 10px;
+  }
