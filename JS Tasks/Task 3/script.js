@@ -24,9 +24,24 @@ function lirePersonne(personnes) {
   root.textContent = "";
   console.log(personnes);
   for (let i = 0; i < personnes.length; i++) {
-    let githubUser = document.createElement("div");
-    githubUser.className = "githubUsers";
-    root.appendChild(githubUser);
-    githubUser.innerText = personnes[i].login +"       "+ personnes[i].avatar_url;
+    const card = document.createElement("div");
+    const divImage = document.createElement("div");
+    const cardImg = document.createElement("img");
+    const divPara = document.createElement("div");
+    const paragraph1 = document.createElement("p");
+    const paragraph2 = document.createElement("p");
+    card.append(divImage, divPara);
+    divImage.append(cardImg);
+    divPara.append(paragraph1, paragraph2);
+    root.append(card);
+
+    card.className = "card";
+    divImage.className = "img";
+    divPara.className = "card-footer";
+    paragraph1.className = "githubUser";
+    paragraph2.className = "avatarURL";
+    paragraph1.textContent = personnes[i].login;
+    paragraph2.textContent =  personnes[i].avatar_url;
+    cardImg.src = "github.png";
   }
 }
