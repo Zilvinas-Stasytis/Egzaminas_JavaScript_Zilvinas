@@ -9,26 +9,39 @@ Pastaba: Sukurta kortelė, kurioje yra informacija apie automobilį (brand), tur
 turėti bent minimalų stilių ir būti responsive;
 -------------------------------------------------------------------------- */
 
-// const ENDPOINT = 'cars.json';
-// const voiture = JSON.stringify(ENDPOINT);
-// console.log(voiture);
-let root = document.getElementById("output");
-const card = document.createElement("div");
-const divImage = document.createElement("div");
-const cardImg = document.createElement("img");
-const divPara = document.createElement("div");
-const paragraph1 = document.createElement("p");
-const paragraph2 = document.createElement("p");
-card.append(divImage, divPara);
-divImage.append(cardImg);
-divPara.append(paragraph1, paragraph2);
-root.append(card);
+const ENDPOINT = "cars.json";
+fetch(ENDPOINT)
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+    lireVoitures(data);
+  });
+function lireVoitures(voitures) {
+  let root = document.getElementById("output");
+  for (let i = 0; i < voitures.length; i++) {
+    // for (j = 0; j < voitures[i].models.length; j++) {
+      const card = document.createElement("div");
+      const divImage = document.createElement("div");
+      const cardImg = document.createElement("img");
+      const divPara = document.createElement("div");
+      const paragraph1 = document.createElement("p");
+      const paragraph2 = document.createElement("p");
+      const modelList = document.createElement("select");
+    //   const modelName = voitures[i].models[1];
+      card.append(divImage, divPara);
+      divImage.append(cardImg);
+      divPara.append(paragraph1, paragraph2, modelList);
+      root.append(card);
 
-card.className = "card";
-divImage.className = "img";
-divPara.className = "card-footer";
-// paragraph1.className = "githubUser";
-// paragraph2.className = "avatarURL";
-// paragraph1.textContent = personnes[i].login;
-// paragraph2.textContent =  personnes[i].avatar_url;
-// cardImg.src = "github.png";
+      card.className = "card";
+      divImage.className = "img";
+      divPara.className = "card-footer";
+      paragraph1.className = "voiture";
+      modelList.className = "models";
+      paragraph1.textContent = voitures[i].brand;
+      paragraph2.innerText = "Models of this brand";
+    //   modelList.options.value = modelName[j];
+    
+    // }
+  }
+}
