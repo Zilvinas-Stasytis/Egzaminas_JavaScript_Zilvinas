@@ -1,6 +1,7 @@
 [
   {
     "brand": "Seat",
+    "picture":"https://www.seat.lt/content/countries/lt/seat-website/lt/car-shopping-tools/brochure-download/_jcr_content/par/brochurecard/brochure-parsys/brochurecardtext_512_467173346/brochurecardimage.resizedViewPort.noscale.asset.jpg",
     "models": [
       "Alhambra",
       "Altea",
@@ -21,6 +22,7 @@
   },
   {
     "brand": "Renault",
+    "picture":"https://autoplius-img.dgn.lt/nac_3_9847/nuotrauka.jpg",
     "models": [
       "Captur",
       "Clio",
@@ -56,6 +58,7 @@
   },
   {
     "brand": "Peugeot",
+    "picture":"https://s1.15min.lt/images/photos/2020/09/01/original/naujasis-peugeot-3008-2020-m-5f4e119544d09.jpg",
     "models": [
       "1007",
       "107",
@@ -97,6 +100,7 @@
   },
   {
     "brand": "Dacia",
+    "picture":"https://www.dacia.lt/CountriesData/Lithuania/images/cars/ADusterPricelist/dacia-duster-hjd-ph2-033_ig_w400_h225.jpg",
     "models": [
       "Dokker",
       "Duster",
@@ -110,6 +114,7 @@
   },
   {
     "brand": "Citroën",
+    "picture":"https://citroensiauliai.lt/thumbs/navauto/312/citroen-c3-aircross.jpg",
     "models": [
       "Berlingo",
       "C-Crosser",
@@ -144,6 +149,7 @@
   },
   {
     "brand": "Opel",
+    "picture":"https://s1.cdn.autoevolution.com/images/models/OPEL_Astra--2021_main.jpg",
     "models": [
       "Agila",
       "Ampera",
@@ -174,6 +180,7 @@
   },
   {
     "brand": "Alfa Romeo",
+    "picture":"https://upload.wikimedia.org/wikipedia/commons/4/48/Alfa_Romeo_159_sedan.jpg",
     "models": [
       "145",
       "146",
@@ -198,6 +205,7 @@
   },
   {
     "brand": "Škoda",
+    "picture":"https://autoplius-img.dgn.lt/nac_3_11486/nuotrauka.jpg",
     "models": [
       "Favorit",
       "Felicia",
@@ -218,6 +226,7 @@
   },
   {
     "brand": "Chevrolet",
+    "picture":"https://g3.dcdn.lt/images/pix/880x460/BFXrLy0gxQ8/naujoji-kamane-arba-chevrolet-camaro-71496654.jpg",
     "models": [
       "Alero",
       "Aveo",
@@ -248,6 +257,7 @@
   },
   {
     "brand": "Porsche",
+    "picture":"https://autoplius-img.dgn.lt/nac_3_10761/nuotrauka.jpg",
     "models": [
       "911 Carrera",
       "911 Carrera Cabrio",
@@ -265,6 +275,7 @@
   },
   {
     "brand": "Honda",
+    "picture":"https://images.dealer.com/ddc/vehicles/2022/Honda/Accord/Sedan/trim_EXL_15T_7b1733/color/Platinum%20White%20Pearl-WX-217%2C219%2C214-640-en_US.jpg?impolicy=downsize_bkpt&imdensity=1&w=520",
     "models": [
       "Accord",
       "Accord Coupé",
@@ -289,6 +300,7 @@
   },
   {
     "brand": "Subaru",
+    "picture":"https://www.subaru.lt/globalassets/modeller/subaru-xv-e-boxer/model_xv_my21.png",
     "models": [
       "BRZ",
       "Forester",
@@ -308,6 +320,7 @@
   },
   {
     "brand": "Mazda",
+    "picture":"https://api.carsinventory.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2E3Qnc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--71a50af291c743d2404f87c509d526bfa6574c7f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2hwQXFRQmFRSHNld2M2RDJKaFkydG5jbTkxYm1SYkNXa0I3bWtCN21rQjdta0I3am9LWVd4d2FHRlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--dc0806ab4bbf7ea417532f6f2b215c70fbb61fd6/CX-30_VisionPlus_AT_DHNKEAF_46V_SoulRedCrystal_exterior1.jpg",
     "models": [
       "121",
       "2",
@@ -341,6 +354,7 @@
   },
   {
     "brand": "Mitsubishi",
+    "picture":"https://img.longo.group/drz5zvoaf/image/upload/c_fill,f_jpg,h_240,w_320/o9z7t9mvwtqd8apf6jwa.jpg",
     "models": [
       "3000 GT",
       "ASX",
@@ -371,6 +385,7 @@
   },
   {
     "brand": "Lexus",
+    "picture":"https://scene7.toyota.eu/is/image/toyotaeurope/2022-lexus-rz-450e-electrified-putting-the-finishing-touches-1440x1080:Medium-Landscape?ts=1662123216581",
     "models": [
       "CT",
       "GS",
@@ -393,6 +408,7 @@
   },
   {
     "brand": "Toyota",
+    "picture":"https://kong-proxy-aws.toyota-europe.com/c1-images/resize/ccis/680x680/zip/lt/product-token/20155568-d8f2-4703-8cdb-c1616bdab919/vehicle/06fe3461-d288-4199-adaa-a860f2169506/padding/50,50,50,50/image-quality/70/day-exterior-4_1g3.png",
     "models": [
       "4-Runner",
       "Auris",
@@ -431,6 +447,7 @@
   },
   {
     "brand": "BMW",
+    "picture":"https://www.evspecifications.info/wp-content/uploads/2021/06/BMW-i4-eDrive40-Specifications-p.png",
     "models": [
       "i3",
       "i8",
@@ -477,6 +494,7 @@
   },
   {
     "brand": "Volkswagen",
+    "picture":"https://s1.15min.lt/images/photos/2021/07/30/original/volkswagen-taigo-r-line-6103eef7d83e0.jpg",
     "models": [
       "Amarok",
       "Beetle",
@@ -530,6 +548,7 @@
   },
   {
     "brand": "Suzuki",
+    "picture":"https://sis.autofortasmotors.lt/images/cars/suzuki/jimny-2/autofortas-motors-suzuki-jimny-vilnius-kaunas-klaipeda-1.jpg",
     "models": [
       "Alto",
       "Baleno",
@@ -551,6 +570,7 @@
   },
   {
     "brand": "Mercedes-Benz",
+    "picture":"https://s1.15min.lt/static/cache/eDEyMDEsOTE4eDc5NCw2MDA0Mzcsb3JpZ2luYWwsLGlkPTU4ODA3OTYmZGF0ZT0yMDIxJTJGMDQlMkYyMCwxNzg3MTcyMTY5/labai-aerodinamiskas-mercedes-benz-eqs-607ef907ab314.jpg",
     "models": [
       "100 D",
       "115",
@@ -614,6 +634,7 @@
   },
   {
     "brand": "Saab",
+    "picture":"https://www.lrt.lt/img/2019/10/08/526157-499244-756x425.jpg",
     "models": [
       "9-3",
       "9-3 Cabriolet",
@@ -629,6 +650,7 @@
   },
   {
     "brand": "Audi",
+    "picture":"https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=850",
     "models": [
       "100",
       "100 Avant",
@@ -679,6 +701,7 @@
   },
   {
     "brand": "Kia",
+    "picture":"https://s3.eu-north-1.amazonaws.com/modera-salesfront/clients/36e55320-4715-4e08-87f2-449be7ffc5cb/web/usedcars/6242a6b56f2bd",
     "models": [
       "Avella",
       "Besta",
@@ -708,6 +731,7 @@
   },
   {
     "brand": "Land Rover",
+    "picture":"https://media.cdn-jaguarlandrover.com/api/v2/images/76686/w/680",
     "models": [
       "109",
       "Defender",
@@ -721,6 +745,7 @@
   },
   {
     "brand": "Dodge",
+    "picture":"https://www.dodge.com/content/dam/cross-regional/emea/dodge/en_crossregional/glps/promos/2020-charger-gallery-exterior-wb1.jpg.img.500.jpg",
     "models": [
       "Avenger",
       "Caliber",
@@ -737,6 +762,7 @@
   },
   {
     "brand": "Chrysler",
+    "picture":"https://cars.usnews.com/static/images/Auto/izmo/i159615043/2022_chrysler_300_0_angularfront.jpg",
     "models": [
       "300 C",
       "300 C Touring",
@@ -758,6 +784,7 @@
   },
   {
     "brand": "Ford",
+    "picture":"https://ford.lt/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBa3NMIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0a4b65f861ed86e8e704c194a988151342214277/kuga.png",
     "models": [
       "Aerostar",
       "B-Max",
@@ -807,9 +834,10 @@
       "Windstar"
     ]
   },
-  { "brand": "Hummer", "models": ["H2", "H3"] },
+  { "brand": "Hummer",  "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/2007_Hummer_H3_--_NHTSA.jpg/640px-2007_Hummer_H3_--_NHTSA.jpg","models": ["H2", "H3"] },
   {
     "brand": "Hyundai",
+    "picture":"https://www.hyundai.lt/wp-content/uploads/2020/10/i20_BC3_exterior_front.jpg",
     "models": [
       "Accent",
       "Atos",
@@ -846,10 +874,12 @@
   },
   {
     "brand": "Infiniti",
+    "picture":"https://www.infiniti-cdn.net/content/dam/Infiniti/2020/about-infiniti/news/qx60-monograph/infiniti-qx60-monograph-front-profile-3000x1500.jpg.ximg.l_12_m.smart.jpg",
     "models": ["EX", "FX", "G", "G Coupé", "M", "Q", "QX"]
   },
   {
     "brand": "Jaguar",
+    "picture":"https://media.cdn-jaguarlandrover.com/api/v2/images/64803/w/680",
     "models": [
       "Daimler",
       "F-Pace",
@@ -874,6 +904,7 @@
   },
   {
     "brand": "Jeep",
+    "picture":"https://www.alpine-electronics.lt/fileadmin/images/MainNavigation/Your_Car/Overview/Jeep/Overview-Jeep-Compass.jpg",
     "models": [
       "Cherokee",
       "Commander",
@@ -886,6 +917,7 @@
   },
   {
     "brand": "Nissan",
+    "picture":"https://s1.15min.lt/images/photos/2020/09/08/original/trecios-kartos-nissan-qashqai-5f572f9a088cd.jpg",
     "models": [
       "100 NX",
       "200 SX",
@@ -933,6 +965,7 @@
   },
   {
     "brand": "Volvo",
+    "picture":"https://autoplius-img.dgn.lt/nac_3_10007/nuotrauka.jpg",
     "models": [
       "240",
       "340",
@@ -961,6 +994,7 @@
   },
   {
     "brand": "Daewoo",
+    "picture":"https://upload.wikimedia.org/wikipedia/commons/a/a5/1999_Daewoo_Leganza.jpg",
     "models": [
       "Espero",
       "Kalos",
@@ -979,6 +1013,7 @@
   },
   {
     "brand": "Fiat",
+    "picture":"https://happycarmadeira.pt/wp-content/uploads/2020/11/fiat-panda-2020.jpg",
     "models": [
       "1100",
       "126",
@@ -1032,6 +1067,7 @@
   },
   {
     "brand": "MINI",
+    "picture":"https://g2.dcdn.lt/images/pix/mini-cooper-64674953.jpg",
     "models": [
       "Cooper",
       "Cooper Cabrio",
@@ -1048,10 +1084,12 @@
   },
   {
     "brand": "Rover",
+    "picture":"https://media.cdn-jaguarlandrover.com/api/v2/images/86457/w/680",
     "models": ["200", "214", "218", "25", "400", "414", "416", "620", "75"]
   },
   {
     "brand": "Smart",
+    "picture":"https://cdn.motor1.com/images/mgl/pmbA1/s1/smart-eq-fortwo-coupe.jpg",
     "models": [
       "Cabrio",
       "City-Coupé",

@@ -3,12 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Mobile first */
-.wrapper #output{
+.wrapper #output {
   min-height: 100vh;
   min-width: calc(100vw - (100vw - 100%));
   display: flex;
@@ -41,8 +41,8 @@
   padding: 0px;
 }
 .img img {
-  width: 30%;
-  margin-left: 100px;
+  width: 50%;
+  margin-left: 80px;
 }
 .voiture {
   font-size: 35px;
@@ -50,4 +50,7 @@
 }
 .card-footer {
   padding: 10px;
+}
+.select {
+  color: rgb(89, 0, 255);
 }

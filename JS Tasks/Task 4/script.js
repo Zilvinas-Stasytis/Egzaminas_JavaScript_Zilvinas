@@ -43,5 +43,6 @@ function lireVoitures(voitures) {
     modelList.className = "models";
     paragraph1.textContent = voitures[i].brand;
     paragraph2.innerText = "Models of this brand";
+    cardImg.src =voitures[i].picture;
       }
 }
